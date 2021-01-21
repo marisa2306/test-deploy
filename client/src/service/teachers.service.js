@@ -1,7 +1,7 @@
-import runtimeEnv from "@mars/heroku-js-runtime-env"
+
 import axios from 'axios'
 
-const env = runtimeEnv()
+
 
 export default class TeacherService {
 
