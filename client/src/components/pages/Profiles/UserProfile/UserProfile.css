@@ -1,0 +1,42 @@
+.user-details{
+
+        background-color:#fff;
+        padding:40px 40px;
+        border: 1px solid #dee2e6 ;
+        border-bottom-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        border-bottom-right-radius: .25rem;
+        box-shadow: 0 4px 12px rgba(0,0,0,.08)
+ 
+}
+
+.user-img{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+}
+
+.cta{
+    
+    padding:20px 40px;
+    background: url(https://s.udemycdn.com/browse_components/shared-assets/purple-intersect.svg) repeat-x #003645;
+    background-size: auto 120%;
+    background-position: 0 -2.4rem;
+    color:white
+
+}
+
+.user-profile h1{
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 2.5rem;
+}
+
+.user-profile h2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.75rem;
+}
