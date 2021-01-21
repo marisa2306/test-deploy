@@ -7,7 +7,7 @@ export default class TeacherService {
 
     constructor() {
         this.apiHandler = axios.create({
-            baseURL: `${ env.REACT_APP_API_URL }/teachers`,
+            baseURL: `${process.env.REACT_APP_API_URL}/teachers`,
             withCredentials: true
         })
     }

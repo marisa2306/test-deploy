@@ -6,7 +6,7 @@ const env = runtimeEnv()
 export default class FilesService {
   constructor() {
     this.apiHandler = axios.create({
-      baseURL: `${ env.REACT_APP_API_URL }/files`,
+      baseURL: `${process.env.REACT_APP_API_URL}/files`,
       withCredentials: true
     })
   }
